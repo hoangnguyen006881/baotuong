@@ -1,7 +1,9 @@
 .region{padding: 8px 20px 20px 20px;}
 .header{background-color: ghostwhite; text-align: center;}
 .navigation_menu{background-color: darkred;}
-.content{background-color: lightblue;}
+div.content{background-color: lightblue;}
+p,ul, ol.content{color: gray; font-family: "Arial Narrow"}
+.content_box{background-color: #E5E1CA; width: 1200px; height: auto; display: inline-block; margin-bottom: 15px}
 .footer{background-color: #306FA2;}
 .title{display: inline-block; vertical-align: top; margin-left: 10px; text-align: left;}
 img.logo{margin: 0px 0px 0px 0px;width: 110px; height: 110px;display: inline-block; vertical-align: top;}
