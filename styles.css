@@ -7,10 +7,10 @@ div.content{background-color: lightblue;}
 p,ul, ol.content{color: gray;}
 .footer{background-color: #306FA2;}
 .title{display: inline-block; text-align: left;}
-img.logo{margin: 0px 0px 0px 0px;width: 110px; height: 110px;display: inline-block; vertical-align: top;}
-h1.logo{margin: 15px 0px 20px 10px; color: blue;}
+img.logo{width: 110px; height: 110px;display: inline-block; vertical-align: top;}
+h1.logo{margin: 15px 100px 20px 100px; color: blue; font-size: 40px}
 h1, label.txt{color: yellow;}
-h2.logo{margin: 0px 0px 0px 10px;}
+h2.logo{margin: 0px 100px 0px 100px;}
 textarea{background-color: ivory;}
 .menu_img{margin-left: 10px; width: 65px; height: 45px;}
 .menu_txt{text-decoration: none; display: inline; vertical-align: top; color: white; font-size: 35px}
