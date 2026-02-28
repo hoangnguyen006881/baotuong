@@ -1,134 +1,153 @@
-<!DOCTYPE html><html lang="vi">
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Báo Tường 20-11</title><style>
-body{
-margin:0;
-font-family: 'Segoe UI', sans-serif;
-background: linear-gradient(to bottom, #e8f5e9, #ffffff);
-overflow-x:hidden;
-}
-
-
-header{
-text-align:center;
-background:#1b5e20;
-color:white;
-padding:30px 10px;
-position:relative;
-}
-
-
-header h1{
-margin:0;
-font-size:36px;
-}
-
-
-.banner{
-width:100%;
-max-height:420px;
-object-fit:cover;
-}
-
-
-.section{
-max-width:900px;
-margin:30px auto;
-background:white;
-padding:30px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-animation: fadeIn 1.2s ease;
-}
-
-
-.section h2{
-color:#2e7d32;
-text-align:center;
-}
-
-
-.section p{
-font-size:18px;
-line-height:1.6;
-text-align:justify;
-}
-
-
-img.class{
-width:100%;
-border-radius:12px;
-margin-top:15px;
-
-}
-ul{
-font-size:18px;
-line-height:1.8;
-}
-
-footer{
-text-align:center;
-background:#1b5e20;
-color:white;
-padding:15px;
-margin-top:30px;
-}
-
-/* Hiệu ứng fade */
-@keyframes fadeIn{
-from{opacity:0; transform:translateY(20px);}
-to{opacity:1; transform:translateY(0);}
-}
-
-/* Hoa rơi */
-.flower{
-position:fixed;
-top:-50px;
-font-size:24px;
-animation: fall linear infinite;
-}
-
-@keyframes fall{
-
-to{
-
-transform:translateY(100vh);
-
-opacity:0;
-
-}
-
-}
-
-</style></head><body><header>
-<h1> Chúc Mừng Ngày Nhà Giáo Việt Nam 20-11 </h1>
-</header><img src="banner.jpg" class="banner"><div class="section">
-<h2> Lời Tri Ân Thầy Cô</h2>
-<p>
-Nhân ngày Nhà giáo Việt Nam 20/11, tập thể lớp chúng em xin gửi đến quý thầy cô lời chúc tốt đẹp nhất. Chúc thầy cô luôn mạnh khỏe, hạnh phúc và thành công trong sự nghiệp trồng người cao quý. Cảm ơn thầy cô đã luôn tận tâm giảng dạy, dìu dắt chúng em trên con đường học tập và trưởng thành.
-</p>
-</div><div class="section">
-<h2> Khoảnh Khắc Lớp Học</h2>
-<img src="lop.jpg" class="class">
-</div><div class="section">
-<h2> Thành Viên Thực Hiện</h2>
-<ul>
-<li><b>Sơn</b> – Nhóm trưởng, thiết kế & tổng hợp</li>
-<li><b>Huy</b> – Nội dung phần 2</li>
-<li><b>Như</b> – Nội dung phần 3</li>
-<li><b>Linh</b> – Nội dung phần 4</li>
-</ul>
-</div><footer>
-<p> Báo tường điện tử chào mừng 20-11 </p>
-</footer><!-- Script hoa rơi --><script>
-for(let i=0;i<20;i++){
-let flower=document.createElement("div");
-flower.innerHTML="";
-flower.className="flower";
-flower.style.left=Math.random()*100+"vw";
-flower.style.animationDuration=(3+Math.random()*5)+"s";
-document.body.appendChild(flower);
-}
-</script></body>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Báo tường</title>
+	<style type="text/css">
+		.content_box{background-color: #E5E1CA; width: 1200px; height: auto; display: inline-block;}
+	</style>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="header region">
+		<img class="logo" src="img/logo.png" alt="Logo">
+		<div class="title">
+			<h1 class="logo">Báo tường lớp 12A2 N3_D3</h1>
+			<h2 class="logo">Chủ đề: Tết nguyên đán</h2>
+		</div>
+		<img class="logo" src="img/tna.jpeg" alt="Logo">
+	</div>
+	<div class="navigation_menu">
+		<a href="index.html"><img class="menu_img" src="img/home.png"></a>
+		<p class="menu_txt" style="margin-right: 45px;">|</p>
+		<a class="menu_txt" href="news.html">Tin tức</a>
+		<p class="menu_txt" style="margin-right: 45px; margin-left: 45px;">|</p>
+		<a class="menu_txt" href="images.html">Hình ảnh</a>
+		<p class="menu_txt" style="margin-right: 45px; margin-left: 45px;">|</p>
+		<a class="menu_txt" href="musics.html">Âm nhạc</a>
+		<p class="menu_txt" style="margin-right: 45px; margin-left: 45px;">|</p>
+		<a class="menu_txt" href="videos.html">Video</a>
+	</div>
+	<div style="padding: 10px; text-align: center;" class="content">
+		<div class="content_box">
+			<div style="margin-bottom: 15px;">
+				<p class="content">225 226 227</p>
+				<p style="margin: 2px 0px;" class="content">_______________________________________________________________________________________________________________________________</p>
+				<p style="margin: 10px 0px 0px 0px; font-size: 54px;" class="content"><i><strong>Giới thiệu về Tết Nguyên Đán</strong></i></p>
+				<p style="margin: 0px 0px 0px 0px;" class="content">_______________________________________________________________________________________________________________________________</p>
+			</div>
+			<div style="background-color: #f5f3e9; width: 400px; height: auto; display: inline-block; vertical-align: top;">
+				<ul style="font-size: 30px; text-align:left;" class="content">
+					<li>Tết nguyên đán là gì</li><br>
+					<li>Các phong tục truyền thống ngày Tết</li><br>
+					<li>Ý nghĩa của Tết Nguyên Đán</li>
+				</ul>
+			</div>
+			<div style="background-color: none; width: 500px; height: 250px; display: inline-block;">
+				<img src="img/content1.jpg" width="400" height="250">
+			</div>
+			<div style="display: inline-block; font-size: 20px; text-align: left;">
+				<p style="text-align:left;" class="content">Tết (Tết Nguyên Đán) là lễ hội truyền thống quan trọng nhất của người Việt, đánh dấu thời điểm bắt đầu năm mới theo âm lịch.</p>
+				<p></p>
+				<p style="text-align:left;" class="content">Tết là dịp để:</p>
+				<ul style="text-align:left;" class="content">
+					<li>Gia đình sum họp</li>
+					<li>Tưởng nhớ tổ tiên</li>
+					<li>Chúc nhau may mắn, sức khỏe và hạnh phúc</li>
+					<li>Kết thúc năm cũ, đón khởi đầu mới</li>
+				</ul>
+				<p>Tết thường diễn ra vào cuối tháng 1 đến đầu tháng 2 dương lịch và gắn liền với nhiều phong tục như dọn dẹp nhà cửa, cúng giao thừa, lì xì, chúc Tết.</p>
+				<p></p>
+				<p>=> Nói ngắn gọn: Tết là dịp đoàn viên và khởi đầu mới của người Việt.</p>
+			</div>
+			<div style="width: 500px; height: 250px; display: inline-block;">
+				<img src="img/content2.jpg" width="400" height="250">
+			</div>
+			<div style="width: 500px; height: 250px; display: inline-block;">
+				<img src="img/content3.jpg" width="400" height="250">
+			</div>
+			<div style="display: inline-block; font-size: 20px; text-align: left; width: 1100px;">
+				<p></p>
+				<p class="content">Tết Nguyên Đán là lễ hội truyền thống lớn nhất và quan trọng nhất của dân tộc Việt Nam, đánh dấu thời khắc chuyển giao giữa năm cũ và năm mới theo âm lịch. Đây không chỉ là dịp để con người nghỉ ngơi sau một năm lao động vất vả mà còn là lúc mọi người sum họp, đoàn viên bên gia đình, hướng về cội nguồn và tổ tiên.</p>
+				<p class="content">Trước Tết, không khí chuẩn bị rộn ràng khắp nơi với việc dọn dẹp nhà cửa, trang trí đào mai, gói bánh chưng, bánh tét và sắm sửa quần áo mới. Trong những ngày đầu năm, mọi người chúc nhau những lời tốt đẹp, cầu mong sức khỏe, bình an và may mắn. Trẻ em háo hức nhận lì xì, người lớn thăm hỏi họ hàng, bạn bè, tạo nên một không khí ấm áp và thân tình.</p>
+				<p class="content">Tết Nguyên Đán không chỉ mang ý nghĩa về thời gian mà còn chứa đựng những giá trị văn hóa sâu sắc, thể hiện truyền thống “uống nước nhớ nguồn”, tình cảm gia đình và tinh thần gắn kết cộng đồng. Dù xã hội ngày càng hiện đại, Tết vẫn luôn là khoảng thời gian thiêng liêng, đáng trân trọng trong lòng mỗi người Việt Nam.</p>
+			</div><br>
+			<div style="text-align: center; margin-bottom: 15px;">
+				<p style="margin: 2px 0px;" class="content">_______________________________________________________________________________________________________________________________</p>
+				<p style="margin: 10px 0px 0px 0px; font-size: 54px; font-weight: bold;" class="content"><i><strong>Các phong tục truyền thống ngày Tết</strong></i></p>
+				<p style="margin: 0px 0px 0px 0px;" class="content">_______________________________________________________________________________________________________________________________</p>
+			</div>
+			<div style="display: inline-block; font-size: 20px; text-align: left;">
+				<p></p>
+				<p style="text-align:left;" class="content">Dưới đây là những phong tục truyền thống ngày Tết Nguyên Đán của Việt Nam:</p>
+				<ol style="text-align:left;" class="content">
+					<li>Dọn dẹp, trang hoàng nhà cửa</li>
+					<li>Gói bánh chưng bánh tét</li>
+					<li>Cúng ông Công ông Táo (23 tháng Chạp)</li>
+					<li>Chưng hoa Tết</li>
+					<li>Cúng tất niên, giao thừa</li>
+					<li>Lì xì đầu năm</li>
+				</ol>
+			</div><br>
+			<div style="width: 500px; height: 250px; display: inline-block;">
+				<img src="img/content4.png" width="400" height="250">
+			</div>
+			<div style="width: 500px; height: 250px; display: inline-block;">
+				<img src="img/content5.jpg" width="400" height="250">
+			</div>
+			<p></p>
+			<div style="width: 500px; height: 250px; display: inline-block;">
+				<img src="img/content6.jpg" width="400" height="250">
+			</div>
+			<div style="width: 500px; height: 250px; display: inline-block;">
+				<img src="img/content7.png" width="400" height="250">
+			</div>
+			<div style="text-align: center; margin-bottom: 15px;">
+				<p style="margin: 2px 0px;" class="content">_______________________________________________________________________________________________________________________________</p>
+				<p style="margin: 10px 0px 0px 0px; font-size: 54px; font-weight: bold;" class="content"><i><strong>Ý nghĩa của Tết Nguyên Đán</strong></i></p>
+				<p style="margin: 0px 0px 0px 0px;" class="content">_______________________________________________________________________________________________________________________________</p>
+			</div>
+			<div style="display: inline-block; font-size: 20px; text-align: left; width: 1100px;">
+				<p></p>
+				<p class="content">Trong dòng chảy không ngừng của thời gian, Tết Nguyên Đán vẫn luôn giữ vị trí đặc biệt trong đời sống tinh thần của người Việt Nam. Không chỉ đơn thuần là thời khắc chuyển giao giữa năm cũ và năm mới, Tết còn mang trong mình những giá trị văn hóa, nhân văn sâu sắc, góp phần nuôi dưỡng tâm hồn và gắn kết cộng đồng.</p>
+				<p class="content">Trước hết, Tết là biểu tượng của sự đoàn viên. Sau một năm bận rộn học tập và lao động, mỗi người đều mong được trở về bên mái ấm gia đình, quây quần bên mâm cơm ngày Tết, cùng chia sẻ những câu chuyện vui buồn. Chính những khoảnh khắc giản dị ấy đã thắt chặt tình thân, giúp con người cảm nhận rõ hơn ý nghĩa của hai chữ “gia đình” – điều thiêng liêng và đáng trân trọng nhất trong cuộc sống.</p>
+				<p class="content">Không chỉ vậy, Tết còn thể hiện truyền thống “uống nước nhớ nguồn” của dân tộc. Những nén hương dâng lên bàn thờ tổ tiên, những mâm cỗ cúng gia đình không chỉ là nghi lễ mà còn là cách để thế hệ hôm nay bày tỏ lòng biết ơn đối với những người đi trước. Qua đó, các giá trị đạo đức như hiếu kính, biết ơn và trân trọng cội nguồn được gìn giữ và truyền lại cho mai sau.</p>
+				<p class="content">Bên cạnh đó, Tết mang ý nghĩa của sự khởi đầu và hy vọng. Mỗi độ xuân về, con người gác lại những muộn phiền của năm cũ để hướng đến tương lai với niềm tin và ước mơ mới. Những lời chúc đầu năm, những phong tục như xông đất, lì xì đều thể hiện mong muốn về một năm an khang, may mắn và hạnh phúc. Chính tinh thần lạc quan ấy giúp con người có thêm động lực để sống tốt hơn, cố gắng hơn trong năm mới.</p>
+				<p class="content">Hơn thế nữa, Tết còn là dịp để gìn giữ và phát huy bản sắc văn hóa dân tộc. Từ hình ảnh bánh chưng xanh, hoa đào hồng thắm đến tiếng trống múa lân rộn ràng, tất cả đã tạo nên một không gian Tết đậm đà bản sắc Việt. Trong xã hội hiện đại, khi nhịp sống ngày càng nhanh, Tết càng trở nên quý giá vì giúp con người chậm lại, hướng về những giá trị truyền thống tốt đẹp.</p>
+				<p class="content">Tóm lại, Tết Nguyên Đán không chỉ là một ngày lễ mà còn là biểu tượng của tình thân, lòng biết ơn, niềm hy vọng và bản sắc văn hóa dân tộc. Giữ gìn và trân trọng Tết chính là giữ gìn cội nguồn tinh thần của người Việt, để mỗi mùa xuân về không chỉ mang theo sắc hoa rực rỡ mà còn đem đến niềm tin, yêu thương và những khởi đầu tốt đẹp cho cuộc sống.</p>
+			</div><br>
+			<div style="text-align: center; margin-bottom: 15px;">
+				<p style="margin: 2px 0px;" class="content">_______________________________________________________________________________________________________________________________</p>
+			</div>
+		</div>
+	</div>
+	<div class="feedback region">
+		<form action="thanks.html" method="GET">
+			<h1 class="txt">1. Thông tin về người góp ý</h1>
+			<label style="font-size:25px" class="txt">Họ và tên: <input style="background-color: ivory;" type="text" name="txtTen"></label><br>
+			<label style="font-size:25px" class="txt">Địa chỉ email: <input style="background-color: ivory;" type="text" name="txtEmail"></label>
+			<h1 class="txt">2. Đóng góp ý kiến</h1>
+			<label style="font-size:25px" class="txt">Ý kiến đóng góp:<textarea name="txtComment" rows="6" cols="100"></textarea></label><p></p>
+			<label style="font-size:25px" class="txt">Cần bổ sung thêm</label><p></p>
+			<input type = "checkbox" name = "chkTintuc"><label style="font-size:20px" class="txt">Tin tức</label><br>
+			<input type = "checkbox" name = "chkHinhanh"><label style="font-size:20px" class="txt">Hình ảnh</label><br>
+			<input type = "checkbox" name = "chkAmnhac"><label style="font-size:20px" class="txt">Âm nhạc</label><br>
+			<input type = "checkbox" name = "chkVideo"><label style="font-size:20px" class="txt">Video</label><br><p></p>
+			<input type="submit" name="cmd" value="Góp ý">
+		</form>
+	</div>
+	<div class="footer region">
+		<p style="color: yellow; font-size: 20px"><strong>12A2_N3_D3</strong></p>
+		<p style="color: yellow; font-size: 20px"><strong>Thành viên:</strong></p>
+		<p style="color: white;">Hoàng Nguyên - Mã số: 225 - Email: <a href="mailto:nh076057@gmail.com" style="color:lightgreen;">nh076057@gmail.com</a></p>
+		<p style="color: white;">Trần Đặng Thục Nhã - Mã số: 226 - Email: <a href="mailto:nhatran0308@gmail.com" style="color:lightgreen;">nhatran0308@gmail.com</a></p>
+		<p style="color: white;">Nguyễn Tuấn Phát - Mã số: 227 - Email:</p>
+		<p style="color: yellow; font-size: 20px; display: inline;"><strong>Nguồn tham khảo: </strong></p>
+		<p style="color: white; display: inline;">Canva, baomoi.com, saostar.vn, Internet</p>
+		<p></p>
+		<p style="color: yellow; font-size: 20px; display:inline;"><strong>Lần cập nhật gần nhất: </strong></p>
+		<p style="color: lightpink; font-size: 20px; display: inline;">19/01/2026</p>
+	</div>
+</body>
 </html>
